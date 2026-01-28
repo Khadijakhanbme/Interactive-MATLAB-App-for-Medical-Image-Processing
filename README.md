@@ -1,4 +1,4 @@
-# Matlab Medical Image Processing App
+# Interactive MATLAB App for Medical Image Processing Using Custom Functions
 
 This project is a MATLAB **App Designer–based medical image processing application** developed to explore and demonstrate fundamental image processing techniques through an interactive graphical user interface.
 
