@@ -1,0 +1,90 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\App\DigiMat2.prj" location="D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\App" name="DigiMat2" target="target.mlapps" target-name="Package App">
+    <param.appname>DigiMat2</param.appname>
+    <param.authnamewatermark>Aron Mihai</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Aplicație de învățare a funcțiilor de bază în imagistica medicală</param.summary>
+    <param.description>Această aplicație este un proiect studențesc, realizat în cadrul cercului de Electronică și Informatică medicală. Scopul acesteia este de a ajuta viitorii studenți de a analiza și procesa imaginile de tip medical, pentru a înțelege principiile de bază în imagistica medicală</param.description>
+    <param.screenshot>C:\Users\HP\AppData\Local\Temp\tp1426faba_be8b_41a4_9a0b_789d6511ed38.png</param.screenshot>
+    <param.version>0.1</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>382cd3fa-63d0-421a-96da-151c21de6453</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DigiMat3.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\AutomaticSFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\AverageFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\BrightnessFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\ContrastFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\HistEqFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\InversionFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\KirschFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\ManualSFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\MedianFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\RotateFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\SaltAndPaperFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\SemiAutoSFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\SobelFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\TranslateFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\UniformNoiseFunc.m</file>
+      <file>D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\Functions\ZoomFunc.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App" name="App" optional="false">D:\EMMBIOME- Course work\3rd Semester\Image Processing\Matlab-Image-Processing-App\App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Matlab Setup</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
